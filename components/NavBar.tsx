@@ -32,7 +32,7 @@ const Navbar = () => {
                 <NavLink href="/services">Services</NavLink>
                 <NavLink href="/projects">Projects</NavLink>
                
-                <NavLink href="/pricing">Pricing</NavLink>
+               
                 <NavLink href="/contacts">Contacts</NavLink>
               </div>
             </div>

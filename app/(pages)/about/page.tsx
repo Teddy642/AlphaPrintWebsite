@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { section } from "framer-motion/client";
+
 
 const About = () => {
   return (

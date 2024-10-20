@@ -4,10 +4,10 @@
 import { Button } from "@nextui-org/react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { FC } from "react";
+import { FC , ReactNode } from "react";
 
 interface NavLinkProps {
-  children: any;
+  children: ReactNode;
   href: string;
   home?: boolean;
 }

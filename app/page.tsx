@@ -2,7 +2,8 @@
 
 import About from "./(pages)/about/page";
 import Contacts from "./(pages)/contacts/page";
-import Hero from "./(pages)/Home/page";
+
+
 
 import WebsiteLayout from "./(pages)/layout";
 import Partners from "./(pages)/partners/page";
@@ -13,11 +14,13 @@ export default function Home() {
   return (
     
     <WebsiteLayout>
-      <Hero/>
+     
       <ServicesPage/>
       <About/>
       <Partners/>
       <Projects/>
+      <Contacts/>
+
     </WebsiteLayout>
     
   );
