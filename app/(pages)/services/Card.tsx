@@ -15,8 +15,8 @@ interface CardProps {
 
 const Card: FC<CardProps> = ({ title, description, imageSrc }) => {
   return (
-    <div className="mt-8 bg-white shadow-xl border-b-2 rounded-lg" >
-      <div className=" p-5 md:p-0 rounded-t-lg  h-96 overflow-hidden ">
+    <div className="mt-8 bg-white shadow-xl border-2 rounded-lg m-3 md:m-0" >
+      <div className="p-5 md:p-0 rounded-t-lg  h-96 overflow-hidden ">
         <Image
           src={imageSrc}
           alt={title}
@@ -25,7 +25,7 @@ const Card: FC<CardProps> = ({ title, description, imageSrc }) => {
           className="object-cover h-[100%] w-[100%] rounded-t-lg"
         />
       </div>
-      <div className=" mt-3 flex gap-20 items-center justify-center pl-4 pb-4" >
+      <div className="mt-3 flex gap-20 items-center justify-center pl-6 pb-4" >
         <h1 className=" text-3xl font-bold text-black" >{title}</h1>
         
         <Accordion>

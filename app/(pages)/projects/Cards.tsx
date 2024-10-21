@@ -11,12 +11,13 @@ interface CardsProps{
 const ProjectCards:FC<CardsProps> = ({imgSource , name}) => {
   return (
     <>
-    <div className='bg-white shadow-xl rounded-lg border-t-[1px]' >
+    <div className='bg-white shadow-xl  md:p-0 rounded-lg border-t-[1px]' >
         <Image
         src={imgSource}
         alt={name}
         width={600}
         height={600}
+        className='h-[150px] w-[150px] md:h-[200px] md:w-[200px] '
         />
          </div>
        

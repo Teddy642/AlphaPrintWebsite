@@ -8,8 +8,8 @@ interface Props {
 
 const PartnerLogos: FC<Props> = ({ imageSrc, name }) => {
   return (
-    <div className="pl-5" >
-      <Image src={imageSrc} alt={name} width={200} height={200} className="h-[160px] w-[160px] md:h-[150px] md:w-[150px]" />
+    <div className="pl-10 md:pl-0" >
+      <Image src={imageSrc} alt={name} width={200} height={200} className="h-[100px] w-[100px] md:h-[150px] md:w-[150px]" />
     </div>
   );
 };

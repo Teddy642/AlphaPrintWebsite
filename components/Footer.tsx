@@ -39,15 +39,15 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-[100%] bg-orange-400/90 h-96 rounded-lg mt-6">
-        <div className=" w-[95%] mx-auto flex gap-2 justify-center items-center p-6 md:pt-20">
-          <GrLocation  />
+        <div className=" relative w-[95%] mx-auto flex gap-2 justify-center items-center p-6 md:pt-20">
+          <GrLocation className="w-[20px] h-[20px] absolute left-0 top-7"  />
           <p className="opacity-[0.8]">
             Boma Street, Moshi near Kilimanjaro Hospital Aroma Cafee
             Restaurant and BM Coach , Kilimanjaro bus offices Tanzania
           </p>
         </div>
         <div className="border-t-2 border-black border-opacity-[0.5] mt-4 md:mt-14 w-[80%] mx-auto" ></div>
-        <div className="flex gap-8  md:gap-16 items-center justify-center pt-10">
+        <div className="flex gap-5 mx-auto md:gap-16 items-center justify-center pt-10">
           <Link href={"/"} className="underline opacity-[0.8]">Home</Link>
           <Link href={"/about"} className="underline opacity-[0.8]" >About</Link>
           <Link href={"/services"} className="underline opacity-[0.8]" >Services</Link>

@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section className="mt-24 max-w-7xl mx-auto" >
         <div>
-            <h1 className=" text-5xl text-center md:text-start md:text-7xl font-bold text-black/65" >WHO WE ARE</h1>
+            <h1 className="text-4xl text-center md:text-start md:text-7xl font-bold text-black/65" >WHO ARE WE ?</h1>
       <div className="grid grid-cols-1 md:grid-cols-6 mt-10 md:mt-16 gap-2">
        
         <div className="col-span-3">

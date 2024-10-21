@@ -45,7 +45,7 @@ const ServicesPage = () => {
   return (
     <div className="max-w-7xl mx-auto mt-20" id="services">
       <div className="text-black text-5xl text-center md:text-start  md:text-7xl font-bold ">
-        <h1 className="text-black/65" >WHAT WE DO</h1>
+        <h1 className="text-black/65 text-4xl md:text-6xl" >WHAT WE DO</h1>
       </div>
       <div className="">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
