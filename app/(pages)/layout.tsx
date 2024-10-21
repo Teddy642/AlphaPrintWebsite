@@ -2,8 +2,9 @@ import Footer from "@/components/Footer";
 
 import { ReactNode } from "react";
 
-import Navbar from "@/components/navbar";
+
 import Hero from "@/components/Hero";
+import Navbar from "@/components/NavBar";
 
 interface props {
   children: ReactNode;
