@@ -12,7 +12,7 @@ interface props {
 
 function WebsiteLayout({ children }: props) {
   return (
-    <div>
+    <div className="bg-white">
       <Navbar />
       <Hero/>
       {children}

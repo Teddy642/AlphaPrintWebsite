@@ -4,7 +4,7 @@ import MapPage from './map'
 
 const Contacts = () => {
   return (
-    <div>
+    <div className='' >
         <EmailPage/>
         <MapPage/>
     </div>

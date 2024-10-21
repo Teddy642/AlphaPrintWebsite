@@ -40,7 +40,7 @@ const NavLink: FC<NavLinkProps> = ({ href, children, home }) => {
         prefetch
         size="sm"
         className={`px-3 py-2 rounded-md text-sm font-medium ${
-          active ? "text-yellow-300 font-bold" : "text-black"
+          active ? "text-orange-400/90 font-bold" : "text-black"
         } w-full`}
       >
         <p className="text-sm lg:text-base text-start lg:text-center w-full px-3">

@@ -26,7 +26,7 @@ const Card: FC<CardProps> = ({ title, description, imageSrc }) => {
         />
       </div>
       <div className=" mt-3 flex gap-20 items-center justify-center pl-4 pb-4" >
-        <h1 className=" text-3xl font-bold" >{title}</h1>
+        <h1 className=" text-3xl font-bold text-black" >{title}</h1>
         
         <Accordion>
           <AccordionItem
@@ -34,6 +34,7 @@ const Card: FC<CardProps> = ({ title, description, imageSrc }) => {
             aria-label="Read More"
             indicator={<FiPlus />}
             title="Read More"
+            className="text-black"
           >
             {description}
           </AccordionItem>

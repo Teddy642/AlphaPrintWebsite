@@ -73,7 +73,7 @@ export const MobileHeader = () => {
               <NavLink href="/about">About</NavLink>
               <NavLink href="/services">Services</NavLink>
               <NavLink href="/projects">Projects</NavLink>
-              <NavLink href="/pricing">Pricing</NavLink>
+             
               <NavLink href="/contacts">Contacts</NavLink>
             </nav>
             

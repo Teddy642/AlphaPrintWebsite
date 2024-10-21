@@ -56,7 +56,7 @@ const Partners = () => {
   return (
     <section className="max-w-7xl mx-auto mt-20 flex flex-col gap-12">
       <h1 className="text-center text-3xl font-semibold mt-4 text-black/65">Our partners</h1>
-      <p className="text-center" >We are trusted by leading businesses across various industries, helping them elevate their brand visibility with customized print and branding solutions.</p>
+      <p className="text-center text-black p-3 md:p-0 " >We are trusted by leading businesses across various industries, helping them elevate their brand visibility with customized print and branding solutions.</p>
 
       <div className=" grid grid-cols-2 md:grid-cols-5 gap-4">
         {logos.map((logo, index)=>(
@@ -64,6 +64,7 @@ const Partners = () => {
             key={index}
             imageSrc={logo.imageSrc}
             name={logo.name}
+            
             />
         ))}
 

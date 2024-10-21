@@ -47,9 +47,9 @@ const Cards =[
 
 const Projects = () => {
   return (
-    <section className='max-w-5xl mx-auto mt-36'>
-        <h1 className='text-5xl text-center text-black/65'>Our Project Samples</h1>
-        <div className='grid grid-cols-3 gap-5 mt-20'>
+    <section className='max-w-5xl mx-auto mt-20 md:mt-36'>
+        <h1 className=' text-3xl md:text-5xl text-center text-black/65'>Our Project Samples</h1>
+        <div className='grid grid-cols-3 gap-5 mt-5 p-5 md:p-0 md:mt-20'>
             {Cards.map((Card, index)=>(
                 <ProjectCards
                  key={index} 

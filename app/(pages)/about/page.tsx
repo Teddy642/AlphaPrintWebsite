@@ -11,19 +11,19 @@ const About = () => {
        
         <div className="col-span-3">
             <div className="flex flex-col gap-4 text-lg md:text-md px-3 md:p-0 ">
-            <p className="font-semibold">
+            <p className="font-semibold text-black">
             Based in Moshi Kilimanjaro , we are a premier one-stop custom Design
             Print and Brand Company proudly serving Tanzania. We Print on
             Digital Press, Large Format , Offset Embroidery , DTF Printing and
             Promotion Items
           </p>
-          <p>
+          <p className="text-black" >
             Our Print and Promo experts are ready to turn you to a well known
             product and service provider across Tanzania. Top quality custom
             printer with friendly skilled proffesionals. Look no further but
             ALPHAPRINT INNOVATIONS
           </p>
-          <p className="opacity-[0.5]" >
+          <p className="opacity-[0.5] text-black " >
             We will work with you hand in hand with commitment to exceed your
             expectation . Alphaprint Innovations is a solution driven company
             that succesfully connects brands with customers. Other companies

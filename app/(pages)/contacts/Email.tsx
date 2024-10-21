@@ -36,8 +36,8 @@ export default function EmailPage() {
 
   return (
     <section className="mx-w-6xl mx-auto mt-20">
-      <div className="mt-10 text-3xl text-center" >Email us and we will reach you</div>
-      <div className="mt-10">
+      <div className="mt-10 text-3xl text-center text-black/65" >Email us and we will reach you</div>
+      <div className="mt-10  p-5 md:p-0">
         <form
           onSubmit={handleSubmit}
           className="max-w-lg mx-auto bg-white shadow-lg p-8 rounded-lg border-2"
@@ -45,7 +45,7 @@ export default function EmailPage() {
           <div className="mb-4">
             <label
               htmlFor="fullName"
-              className="block text-sm font-semibold mb-2"
+              className="block text-sm font-semibold mb-2 text-black"
             >
               Full Name
             </label>
@@ -53,35 +53,35 @@ export default function EmailPage() {
               type="text"
               id="fullName"
               name="fullName"
-              className="border border-gray-300 rounded-lg p-3 w-full"
+              className="border border-gray-300 rounded-lg p-3 w-full text-black"
               value={formData.fullName}
               onChange={handleChange}
               required
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="email" className="block text-sm font-semibold mb-2">
+            <label htmlFor="email" className="block text-sm font-semibold mb-2 text-black">
               Email
             </label>
             <input
               type="email"
               id="email"
               name="email"
-              className="border border-gray-300 rounded-lg p-3 w-full"
+              className="border border-gray-300 rounded-lg p-3 w-full text-black"
               value={formData.email}
               onChange={handleChange}
               required
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="phone" className="block text-sm font-semibold mb-2">
+            <label htmlFor="phone" className="block text-sm font-semibold mb-2 text-black">
               Phone Number
             </label>
             <input
               type="tel"
               id="phone"
               name="phone"
-              className="border border-gray-300 rounded-lg p-3 w-full"
+              className="border border-gray-300 rounded-lg p-3 w-full text-black"
               value={formData.phone}
               onChange={handleChange}
               required
@@ -90,14 +90,14 @@ export default function EmailPage() {
           <div className="mb-4">
             <label
               htmlFor="message"
-              className="block text-sm font-semibold mb-2"
+              className="block text-sm font-semibold mb-2 text-black"
             >
               Message
             </label>
             <textarea
               id="message"
               name="message"
-              className="border border-gray-300 rounded-lg p-3 w-full"
+              className="border border-gray-300 rounded-lg p-3 w-full text-black"
               value={formData.message}
               onChange={handleChange}
               required
