@@ -1,7 +1,13 @@
 'use client'
+import { Button } from "@nextui-org/react";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export default function EmailPage() {
+
+  const router = useRouter()
+
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -36,6 +42,13 @@ export default function EmailPage() {
 
   return (
     <section className="mx-w-6xl mx-auto mt-20">
+      <div className=" flex justify-center" >
+      <Link href="tel:+255756577194" className="px-8 py-3 bg-blue-900 hover:bg-blue-800 text-white font-semibold rounded-md">
+       Get In Touch
+          </Link>
+
+      </div>
+     
       <div className="mt-10 text-3xl text-center text-black/65" >Email us and we will reach you</div>
       <div className="mt-10  p-5 md:p-0">
         <form

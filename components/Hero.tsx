@@ -14,7 +14,7 @@ const Hero = () => {
           <p className="text-lg md:text-xl max-w-3xl mb-6">
          Our mission is turning your creative vision into reality. From bold visual displays to intricate designs, our services are tailored to help you stand out and connect with your audience in meaningful ways.
           </p>
-          <Link href="/projects" className="px-8 py-3 bg-blue-600 hover:bg-blue-800 text-white font-semibold rounded-md">
+          <Link href="/projects" className="px-8 py-3 bg-blue-900 hover:bg-blue-800 text-white font-semibold rounded-md">
          Our Projects
           </Link>
         </div>

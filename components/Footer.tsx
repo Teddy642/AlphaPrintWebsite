@@ -40,7 +40,7 @@ const Footer = () => {
       </div>
       <div className="w-[100%] bg-orange-400/90 h-96 rounded-lg mt-6">
         <div className=" relative w-[95%] mx-auto flex gap-2 justify-center items-center p-6 md:pt-20">
-          <GrLocation className="w-[20px] h-[20px] absolute left-0 top-7"  />
+          <GrLocation className="w-[20px] h-[20px] absolute left-0 md:left-40 top-7 md:top-20"  />
           <p className="opacity-[0.8]">
             Boma Street, Moshi near Kilimanjaro Hospital Aroma Cafee
             Restaurant and BM Coach , Kilimanjaro bus offices Tanzania
