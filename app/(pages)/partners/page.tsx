@@ -27,12 +27,12 @@ const Partners = () => {
         },
        
         { 
-            imageSrc : "/BergaLogo.png" ,
+            imageSrc : "/CBTLogo.png" ,
             name :"logo3"
         },
        
         { 
-            imageSrc : "/Klmlogo.png" ,
+            imageSrc : "/CrdbLogo.png" ,
             name :"logo5"
         },
       
@@ -41,7 +41,7 @@ const Partners = () => {
             name :"logo7"
         },
         { 
-            imageSrc : "/Sunkinglogo.png" ,
+            imageSrc : "/KCBLLogo.png" ,
             name :"logo8"
         },
         { 
